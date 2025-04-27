@@ -1,0 +1,14 @@
+strict digraph "graph" {
+	node [shape=box]
+	"0.MED"
+	"1.BALT"
+	"2.CARIB"
+	"3.GRE"
+	"4.NIL"
+	"5.DAN"
+	"6.NEW"
+	"1.BALT" -> "0.MED" [label=""]
+	"5.DAN" -> "2.CARIB" [label=""]
+	"6.NEW" -> "0.MED" [label=""]
+	"6.NEW" -> "4.NIL" [label=""]
+}
